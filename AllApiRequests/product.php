@@ -2,7 +2,7 @@
 	// error_reporting(0);
 	// Connect to database
 
-	$connection=mysqli_connect('localhost','root','nkm2k1','vogue');
+	$connection=mysqli_connect('localhost',username,password,'vogue');
 	if($connection)
 		// echo 'connected';
 	header('Content-Type: application/json');
